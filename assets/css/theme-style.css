@@ -12,8 +12,7 @@ a {
 }
 
 :root {
-    --main-theme: linear-gradient(90deg, rgba(94, 126, 237, 1) 0%, rgba(128, 152, 236, 1) 23%, rgba(167, 182, 235, 1) 50%, rgba(122, 147, 236, 1) 77%, rgba(94, 126, 237, 1) 100%);
-    --main-hover: #1f53d6;
+    --main-theme: linear-gradient(90deg, rgba(160, 23, 137, 1) 0%, rgba(160, 62, 139,1) 23%, rgb(160, 101, 146) 50%, rgba(160, 62, 139, 1) 77%, rgba(160, 23, 137, 1) 100%);
 }
 
 .row.row-5 {
@@ -26,20 +25,22 @@ a {
     padding-right: 5px;
 }
 
+body {
+    background: url('../images/bg-booking.jpg') no-repeat top right;
+    background-size: cover;
+}
+
 .screenSaving {
     max-width: 480px;
     margin: 0 auto;
     position: relative;
-    background-color: #f9f9f9;
-    border: 1px solid #d1d1d1;
     height: 100vh;
 }
 
 .savingHeader {
     position: relative;
     padding: 15px;
-    background: url('../images/background-header-2.jpg') no-repeat center center;
-    background-size: cover;
+    background: rgba(230, 131, 225, 0.28);
     height: 250px;
 }
 
@@ -49,10 +50,11 @@ a {
 }
 
 .savingHeader .savingBackground .savingBackground-heading {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: .5rem 0;
     text-align: center;
     color: #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,1);
     font-weight: 600;
     letter-spacing: .5px;
 }
